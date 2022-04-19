@@ -21,5 +21,5 @@ function finalizar() {
     resposta.innerHTML += `</br>O maior valor informado foi o ${Math.max(...numeros)}`
     resposta.innerHTML += `</br>O menor valor informado foi o ${Math.min(...numeros)}`
     resposta.innerHTML += `</br>A soma dos numeros foi ${somatorio}`
-    resposta.innerHTML += `</br>A media dos valores é ${media}`    
+    resposta.innerHTML += `</br>A media dos valores é ${media.toFixed(2)}`    
 }
